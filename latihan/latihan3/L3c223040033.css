@@ -1,9 +1,6 @@
 body {
-  background-image: url("img.png");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   font-family: Georgia;
+  background-color: aqua;
 }
 
 h1 {
@@ -16,7 +13,6 @@ h1 {
 h3 span a {
   color: white;
   text-decoration: underline;
-  text-align: right;
 }
 
 h3 span a:hover {
@@ -28,18 +24,17 @@ h3 span a:hover {
   color: orange;
 }
 
-p {
-  text-align: right;
-}
-
 p span:hover {
   text-decoration: none;
   background-color: blue;
   color: white;
 }
 
+p {
+  text-align: right;
+}
+
 h4 {
   text-align: right;
   font-style: italic;
-  text-align: center;
 }
