@@ -1,9 +1,9 @@
 body {
   background-image: url("img.png");
   background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   font-family: Georgia;
+  background-color: aqua;
+  color: black;
 }
 
 h1 {
