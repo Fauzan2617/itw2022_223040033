@@ -89,14 +89,16 @@ video {
 
 body {
   font: 16px/28px arial, sans-serif;
-  background-color: #eaeaea;
+  background-image: url("img/Vector_2677.jpg");
   color: #333;
+  background-size: cover;
 }
 
 .container {
-  width: 800px;
+  width: 750px;
   margin: auto;
-  background-color: #fff;
+  background-image: url("img/robot.jpg");
+  background-size: cover;
 }
 
 .header {
@@ -107,6 +109,14 @@ body {
 .header .Judul {
   font-size: 40px;
   font-weight: bold;
+  color: #1e90ff;
+}
+
+.gambar {
+  background-image: url("img/code.jpg");
+  background-size: cover;
+  background-position: 0 -120px;
+  height: 100px;
 }
 
 .header ul li {
@@ -128,9 +138,9 @@ body {
 
 .hero {
   height: 280px;
-  background-image: url("img/bulan.jpg");
+  background-image: url("img/senku.jpg");
   background-size: cover;
-  background-position: 0 -150px;
+  background-position: 0 -130px;
   border-bottom: 5px solid lightskyblue;
   border-top: 5px solid salmon;
 }
@@ -143,20 +153,23 @@ body {
 .content .penulis {
   font-size: 11px;
   margin-top: -5px;
+  color: white;
 }
 
 .content .penulis a {
-  color: salmon;
+  color: white;
   text-decoration: none;
 }
 
 .content p {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 18px;
+  color: white;
 }
 
 .content {
   padding: 20px;
+  color: white;
 }
 
 .footer {
@@ -172,4 +185,5 @@ body {
 
 .content h1 {
   font-weight: bold;
+  font-size: 25px;
 }
