@@ -115,8 +115,25 @@ body {
 .gambar {
   background-image: url("img/code.jpg");
   background-size: cover;
-  background-position: 0 -120px;
+  background-position: 0 -80px;
   height: 100px;
+  padding-bottom: 200px;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+}
+
+.terminator {
+  background-image: url("img/terminator.jpg");
+  background-size: cover;
+  background-position: 0 -80px;
+  height: 100px;
+  padding-bottom: 200px;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
 }
 
 .header ul li {
@@ -148,6 +165,7 @@ body {
 .content h2 {
   font-size: 28px;
   font-weight: bold;
+  color: dodgerblue;
 }
 
 .content .penulis {
@@ -186,4 +204,9 @@ body {
 .content h1 {
   font-weight: bold;
   font-size: 25px;
+  color: #1e90ff;
+}
+
+p a span {
+  color: aqua;
 }
