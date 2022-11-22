@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 1500px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100px;
+        text-shadow: 2px 2px 20px red;
+        color: blanchedalmond;
+      }
+
+      .kotak1 {
+        width: 150px;
+        height: 150px;
+        background-color: rgba(0, 0, 255, 0.3);
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 80px;
+        z-index: 10;
+        position: relative;
+        margin: auto;
+      }
+
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-color: greenyellow;
+        margin: auto;
+        /* box-shadow: [inset] <x-offset> <y-offset> <blur> ; */
+        /* box-shadow: inset 10px 15px 40px 50px red; */
+        /* box-shadow: 10px 15px 20px red, -10px -10px 10px blue,
+          10px -10px 10px orange; */
+      }
+
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        margin: auto;
+
+        /* transform: translatex(100px, 100px); */
+        /* transform: translatey(100px, 100px); */
+        /* transform: translate(100px, 100px); */
+        /* transform: scale(2); */
+        /* transform: skewx(-20); */
+        /* transform: skewy();
+        transform: skew(); */
+        /* transform: rotate(45deg); */
+        font-size: 50px;
+        text-align: center;
+        line-height: 200px;
+        transition: 2s background-color, 3s 2s transform, 3s 5s border-radius,
+          2s 5s;
+      }
+
+      /* .kotak3:hover {
+        transform: rotate(80deg);
+        background-color: blue;
+        border-radius: 30%;
+      } */
+      .kotak3:active {
+        transform: rotate(80deg);
+        background-color: blue;
+        border-radius: 30%;
+      }
+
+      p {
+        position: relative;
+        z-index: -100;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia blanditiis
+      excepturi laborum quidem deserunt nulla dolor modi earum commodi adipisci!
+      Ipsum tempore voluptas laudantium iusto? Mollitia corporis reiciendis
+      incidunt ducimus esse earum eaque voluptates, officia et perspiciatis
+      eveniet sit cumque ipsum eos maxime itaque? Rem nostrum eligendi
+      exercitationem, autem, a minus repellat nesciunt esse facere ex adipisci,
+      corporis labore beatae debitis explicabo. Repellendus adipisci doloribus
+      quibusdam repellat dolores quis ipsam est amet laudantium, sed unde harum
+      quidem nemo. Quam illum eaque totam nobis, ratione pariatur, nesciunt
+      atque quos ut amet, iure est. Debitis a perspiciatis inventore error
+      laboriosam! Sapiente, architecto.
+    </p>
+    <div class="kotak1">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+      mollitia!
+      <img src="" alt="" />
+    </div>
+    <div class="kotak2"></div>
+    <h1>Muh Fauzan Dwi Putera</h1>
+
+    <div class="kotak3">COC</div>
+  </body>
+</html>

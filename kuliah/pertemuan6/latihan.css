@@ -1,0 +1,19 @@
+.text p {
+  color: yellow;
+}
+
+.text:hover {
+  color: white;
+  background-color: red;
+}
+
+body {
+  background-image: url("img/kimi.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  background-color: aqua;
+}
