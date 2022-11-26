@@ -24,6 +24,23 @@
       h6 {
         font-family: "Raleway", sans-serif;
       }
+
+      .zoom-effect {
+        position: relative;
+        width: 100%;
+        height: 220px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      .kotak img {
+        -webkit-transition: 0.4s ease;
+        transition: 0.4s ease;
+        width: 700px;
+      }
+      .zoom-effect:hover .kotak img {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+      }
     </style>
   </head>
   <body class="w3-light-grey w3-content" style="max-width: 1600px">
@@ -44,7 +61,7 @@
           <i class="fa fa-remove"></i>
         </a>
         <img
-          src="img/avatar_g2.jpg"
+          src="img/profil.png"
           style="width: 45%"
           class="w3-round"
         /><br /><br />
@@ -58,7 +75,7 @@
           ><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a
         >
         <a
-          href="#about"
+          href="file:///C:/itw2022_223040033/latihan/latihan5/About.html"
           onclick="w3_close()"
           class="w3-bar-item w3-button w3-padding"
           ><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a
@@ -72,7 +89,8 @@
       </div>
       <div class="w3-panel w3-large">
         <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <a href="https://www.instagram.com/mfauzan2004" target="_blank"></a
+        ><i class="fa fa-instagram w3-hover-opacity"></i>
         <i class="fa fa-snapchat w3-hover-opacity"></i>
         <i class="fa fa-pinterest-p w3-hover-opacity"></i>
         <i class="fa fa-twitter w3-hover-opacity"></i>
@@ -121,50 +139,89 @@
       <!-- First Photo Grid-->
       <div class="w3-row-padding">
         <div class="w3-third w3-container w3-margin-bottom">
-          <img
-            src="img/mountains.jpg"
-            alt="Norway"
-            style="width: 100%"
-            class="w3-hover-opacity"
-          />
+          <div class="wrapper">
+            <div class="zoom-effect">
+              <div class="kotak">
+                <img
+                  src="img/intel.jfif"
+                  alt="Norway"
+                  style="width: 100%"
+                  class="w3-hover-opacity"
+                />
+              </div>
+            </div>
+          </div>
           <div class="w3-container w3-white">
-            <p><b>Lorem Ipsum</b></p>
+            <p><b>Intel® Core™ Generasi ke-13</b></p>
             <p>
-              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-              condimentum, porta lectus vitae, ultricies congue gravida diam non
-              fringilla.
+              Rangkaian prosesor Intel® Core™ Generasi ke-13 menawarkan P-core
+              yang lebih cepat dan E-core lebih banyak dengan dukungan untuk
+              DDR4/DDR5 dan PCIe* 4.0/5.0. Hal ini memberikan platform yang
+              dapat memaksimalkan multitasking dan pilihan untuk kemudahan
+              konfigurasi. Arsitektur hibrida performa tinggi prosesor Intel
+              Core Generasi ke-131 dengan hingga delapan Performance-core
+              (P-core) dan hingga 16 Efficient-core (E-Core), digabungkan dengan
+              beban kerja yang dengan cerdas diarahkan oleh Intel® Thread
+              Director2.
             </p>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
-          <img
-            src="img/mountains.jpg"
-            alt="Norway"
-            style="width: 100%"
-            class="w3-hover-opacity"
-          />
+          <div class="wrapper">
+            <div class="zoom-effect">
+              <div class="kotak">
+                <img
+                  src="img/ryzen.webp"
+                  alt="Norway"
+                  style="width: 100%"
+                  class="w3-hover-opacity"
+                />
+              </div>
+            </div>
+          </div>
           <div class="w3-container w3-white">
-            <p><b>Lorem Ipsum</b></p>
+            <p><b>AMD Ryzen 5 3600</b></p>
             <p>
-              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-              condimentum, porta lectus vitae, ultricies congue gravida diam non
-              fringilla.
+              AMD Ryzen 5 3600 itu sendiri hadir dengan kekuatan 6 Core , 12
+              threads, clockspeed dasar sebesar 3.6Ghz dan bisa diboosting
+              secara otomatis hingga 4.2Ghz. Cache membawa kemajuan tersendiri,
+              dimana produsen kini memberikan nilai cache yang jauh lebih besar
+              yang terbagi menjadi L2 sebesar 4MB dan L3 Cache hingga 32MB.
+              Perubahan besar ini bisa memberikan kinerja jauh lebih efektif,
+              termasuk dukungan memori default hingga 3200Mhz dan tentu saja
+              masih membawa paket yang sama, yakni nilai TDP 65W dan soket AM4.
+              Artinya bahwa kalian masih bisa memakai mobo lama untuk
+              mendapatkan kekuatan besar prosesor ini, baik seri 300 maupun 400.
             </p>
           </div>
         </div>
         <div class="w3-third w3-container">
-          <img
-            src="img/mountains.jpg"
-            alt="Norway"
-            style="width: 100%"
-            class="w3-hover-opacity"
-          />
+          <div class="wrapper">
+            <div class="zoom-effect">
+              <div class="kotak">
+                <img
+                  src="img/RTX.webp"
+                  alt="Norway"
+                  style="width: 100%"
+                  class="w3-hover-opacity"
+                />
+              </div>
+            </div>
+          </div>
           <div class="w3-container w3-white">
-            <p><b>Lorem Ipsum</b></p>
+            <p><b>RTX Series 40</b></p>
             <p>
-              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-              condimentum, porta lectus vitae, ultricies congue gravida diam non
-              fringilla.
+              Didukung oleh NVIDIA Ada Lovelace baru yang sangat efisien,
+              arsitektur RTX generasi ke-3, kartu grafis Seri GeForce RTX 40
+              sangat cepat, memberi para gamer dan kreator lompatan besar dalam
+              performa, grafis bertenaga AI, pengalaman gaming yang lebih
+              imersif, dan konten tercepat alur kerja pembuatan. Performa game
+              di judul-judul terbaru meroket hingga 2X, dan dengan memanfaatkan
+              DLSS 3 dan inovasi Ada yang baru, developer dapat meningkatkan
+              performa hingga 4X dalam judul yang sepenuhnya dilacak dengan
+              sinar. Dalam aplikasi kreatif, kartu grafis Seri GeForce RTX 40
+              memberikan performa hingga 2X lipat dalam rendering 3D, kecepatan
+              ekspor video, dan alat AI.
             </p>
           </div>
         </div>
