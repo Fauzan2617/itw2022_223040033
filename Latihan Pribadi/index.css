@@ -1,0 +1,27 @@
+.header {
+  background-color: blue;
+  color: white;
+  height: 100px;
+}
+
+.logo {
+  float: left;
+  font-size: 36px;
+  /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
+  padding: 20px 40px 20px 40px;
+}
+
+.header ul li {
+  /* Ubahlah padding atas & bawah ke 33px, dan padding kiri & kanan ke 20px */
+  padding: 33px 20px 33px 20px;
+  margin-top: 5px;
+  margin-right: 20px;
+  border-top: 5px solid white;
+  display: inline-block;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+  background-color: blueviolet;
+}
