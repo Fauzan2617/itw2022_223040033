@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  background-color: lightblue;
+  /* display: flex;  */
+  /* justify-content: center; */
+  /* align-items: center;  */
+}
+
+.flexbox-container {
+  display: flex;
+  background-color: blueviolet;
+  /* (kode dalam justify-content) ---> start, end, center, space-between, space-around, space-evenly */
+  justify-content: space-between;
+  /* stretch, start, end, center */
+  /* align-items: center; */
+  /* max-width: 700px; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  text-align: center;
+  height: 500px;
+}
+
+.flexbox-item {
+  width: 200px;
+  background-color: antiquewhite;
+  border: 3px solid #333;
+  margin: 10px;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+  /* order: 3; */
+  align-self: start;
+}
+.flexbox-item-2 {
+  min-height: 200px;
+  align-self: center;
+}
+.flexbox-item-3 {
+  min-height: 300px;
+  /* order: 1; */
+  align-self: end;
+}
